@@ -1,0 +1,19 @@
+{
+  "name": "Doll Dress Up: Sweet Girl",
+  "short_name": "Doll Dress Up: Sweet Girl",
+  "description": "Dress up dolls in hundreds of outfits and share your looks.",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "id": "TapNationSAS.DollDressUpMakeupGames",
+  "ms_start_compatible": true,
+  "publisher": "TapNation SAS",
+  "orientation": "any",
+  "version": "1.25.1",
+  "categories": ["games"],
+  "icons": [
+    { "src": "icon-1920x1080.png", "sizes": "1920x1080", "type": "image/png" },
+    { "src": "icon-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
