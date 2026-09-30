@@ -43,5 +43,21 @@
   "scope": "./",
   "lang": "en-US",
   "dir": "ltr",
-  "prefer_related_applications": false
+  "prefer_related_applications": false,
+  "screenshots": [
+    {
+      "src": "screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Fix the skin, then dress the doll"
+    },
+    {
+      "src": "screenshot-narrow.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Doll Dress Up: Sweet Girl gameplay"
+    }
+  ]
 }
