@@ -17,6 +17,9 @@
   <!-- MSN_PLAY_INJECTED -->
 <script src="https://assets.msn.com/staticsb/statics/latest/msstart-games-sdk/msstart-v1.0.0-rc.23.min.js"></script>
 <link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="icon-192x192.png">
+<link rel="apple-touch-icon" href="icon-192x192.png">
+<meta name="theme-color" content="#000000">
 </head>
   <body>
     <div id="unity-container">
@@ -141,5 +144,6 @@
   window.MsnNotifyGameUnmuted = function () { var s = sdk(); if (s) { try { s.notifyGameUnmuted(); } catch (e) {} } };
 })();
 </script>
+<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(e){console.warn('[PWA] sw',e)})})}</script>
 </body>
 </html>
