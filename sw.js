@@ -1,5 +1,5 @@
 // Doll Dress Up: Sweet Girl - service worker (app shell precache + runtime cache).
-const VERSION = 'v1.25.1';
+const VERSION = 'v1.25.2';
 const SHELL = `dduo-shell-${VERSION}`;
 const RUNTIME = 'dduo-runtime';
 const SHELL_FILES = ['./', 'index.html', 'manifest.json', 'icon-192x192.png', 'icon-512x512.png', 'icon-maskable-512x512.png'];
